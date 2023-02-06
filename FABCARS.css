@@ -1,0 +1,183 @@
+body{background-color: #C0C0C0}
+
+.slider{
+	animation: slider 10s infinite linear;
+	width: 500%; 
+	position: relative; 
+	margin: 0; 
+	left: 0; 
+	padding: 0;
+}
+@keyframes slider{
+	0%{left: 0}
+	20%{left: 0}
+	25%{left: -100%;}
+	45%{left: -100%;}
+	50%{left: -200%}
+	70%{left: -200%}
+	75%{left: -300%}
+	95%{left: -300%}
+	100%{left: -400%}
+	
+}
+.header{
+	display: flex; 
+	justify-content: space-around; 
+	list-style: none;
+}
+.brand2{
+	font-family: Arial Black; 
+	font-weight: bolder; 
+	font-size: 20px; 
+	margin: 8px;
+}
+.headlink{
+	text-decoration: none;
+	color: black;
+}
+.logo{
+	margin: -5px;
+	width: 50px;
+}
+#navlink{
+	margin: 15px;
+}
+.brandtext{
+	font-family: Avanta Garde;}
+
+.MS, .TATA{
+	margin: 2px 2px 2px 2px;
+}
+.MS2, .TATA2, .M2, .TOYOTA2, .HYUNDAI2, .HONDA2, .KIA2, .NISSAN2, .RENAULT2, .JEEP2, .VW2, .MG2, .SKODA2{
+	font-family: Verdana;} 
+
+.TOYOTA, .HONDA, .KIA, .NISSAN, .RENAULT, .JEEP, .VW, .MG, .SKODA{width: 170px;}
+
+.MS {width: 250px;}
+
+.TATA {width: 100px}
+
+.M {width: 100px;}
+
+.HYUNDAI {width: 120px;}
+
+.footerline {height: 4px;
+			background-color: black;}
+
+.RRSPARA {font-size: 21px;}	
+
+.SUBHEAD{font-family: Arial Black; 
+	font-weight: bolder; 
+	font-size: 29px; 
+	margin-left: 15px;}	
+
+.SUBHEAD2{
+	font-family: Arial; 
+	font-weight: bolder; 
+	font-size: 40px; 
+	margin-left: 15px;
+}	
+
+.price{
+	text-align: center;
+	font-weight: bolder;
+	}
+
+.price2{color: #00d;}
+
+.FORMHEAD{
+	margin-left: 15px;
+}
+
+.perks{font-family: Lucida Bright; 
+	font-size: 25px;}
+
+.form1{
+	display: flex;
+}
+
+.subform1{
+	flex: 0.5;
+}
+
+.button{
+	text-align: center;
+}
+input{width: 400px; padding: 10px;}
+
+table,th,td{border: 3px solid black;
+border-collapse: collapse;
+padding: 40px;
+margin: 40px;
+font-style: Copperplate;
+font-size: 30px;
+margin-left: auto;
+margin-right: auto;
+background-color: #FFFFF0;}
+
+.RRS{font-family: Copperplate;}
+.RRSIMG1{ width: 250px;
+		border: 4px; }
+.TABLETEXT{
+	font-family: Copperplate;
+	text-align: center;
+	font-weight: bolder;
+}
+.FCOTY{font-family: Impact; 
+	width: 30px;}
+
+.FCOTY2{font-size: 20px;}
+
+.SLIDERHEAD{font-family: Copperplate; 
+	text-align: center;
+	font-weight: bolder;}
+
+.SLIDERDIVISION{overflow: hidden;}
+.SLIDERIMGS{float:left; 
+				width: 20%; 
+				height: 650px;}
+.footerimg{
+	margin: 25px;
+}
+
+.CONTACT{font-family: sans-serif;
+		font-weight: bolder;
+		font-size: 30px;
+		text-align: center;
+	}
+
+.SUBCONTACT{font-family: Verdana;}
+.CONTACTBOX{display: flex;}
+.SUBBOX1, .SUBBOX3{flex: 0.33}
+.SUBBOX2{flex: 0.34}
+.METHOD1, .METHOD2, .METHOD3{
+	text-align: center;
+	font-family: Arial Black;
+		text-align: center;
+	}
+.FILL{text-align: center;}
+
+.FILLBUTTON{margin-left: 32px;}
+
+.STYLING{
+	margin: 10px;
+	padding: 10px;
+	background-color: #eee;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+.RRSARTICLE{
+	padding-left: 5px;
+	background-color: #f0ead6;
+	border-left: 6px solid brown;
+	font-family: Oswald;
+	display: inline;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding-right: 5px;
+   
+}
+
+.ROLLSIMAGES{
+	margin: -10PX;
+	padding: -1
